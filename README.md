@@ -1,6 +1,6 @@
 ### Usage
 
-A simple app built with React to let the computer make descisions for you
+An app for managing expenses
 
 
 ## Getting Started
@@ -20,10 +20,4 @@ A simple app built with React to let the computer make descisions for you
 - See package.json for additional dependencies
 
 
-## Screenshots
 
-!["Screenshot of Indecision App"](https://github.com/Sanju3001/indecision/blob/master/docs/Indecision-App.png)
-
-!["Screenshot of Added Options"](https://github.com/Sanju3001/indecision/blob/master/docs/Add-Options.png)
-
-!["Screenshot of Selected Option"](https://github.com/Sanju3001/indecision/blob/master/docs/Select-Option.png)
