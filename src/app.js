@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'react-dates/initialize';
 import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
@@ -14,9 +15,9 @@ import 'react-dates/lib/css/_datepicker.css';
 const store = configureStore();
 console.log('test');
 
-store.dispatch(addExpense({ description: 'Water Bill', amount: 10000 }));
-store.dispatch(addExpense({ description: 'Gas Bill', amount: 15000, createdAt: 10000000000 }));
-store.dispatch(addExpense({ description: 'Rent', amount: 109500 }));
+// store.dispatch(addExpense({ description: 'Water Bill', amount: 10000 }));
+// store.dispatch(addExpense({ description: 'Gas Bill', amount: 15000, createdAt: 10000000000 }));
+// store.dispatch(addExpense({ description: 'Rent', amount: 109500 }));
 
 // store.dispatch(setTextFilter('water'));
 
