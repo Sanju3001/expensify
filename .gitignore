@@ -2,3 +2,5 @@ node_modules
 npm-debug.log
 .DS_Store
 public/dist/
+.env.test
+.env.development
